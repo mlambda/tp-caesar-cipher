@@ -1,0 +1,6 @@
+__pycache__
+.hypothesis
+.mutmut-cache
+.mypy_cache
+.pytest_cache
+.venv

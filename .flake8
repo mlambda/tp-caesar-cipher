@@ -1,0 +1,14 @@
+[flake8]
+ignore = B008, W503
+max-line-length = 88
+exclude =
+    __pycache__,
+    .git,
+    .hypothesis,
+    .mutmut-cache,
+    .mypy_cache,
+    .pytest_cache,
+    .venv
+per-file-ignores =
+    tests/*: D
+max-complexity = 9
